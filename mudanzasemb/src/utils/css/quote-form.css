@@ -1,0 +1,104 @@
+html {
+    font-size: 62.5%;
+    background-color: #1f1f1f;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.6rem;
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+body {
+    background-color: #232323;
+    color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+
+.quote-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+}
+
+.productos-group {
+    width: 100%;
+}
+
+.producto {
+    margin-bottom: 1rem;
+}
+
+.agregar-producto,
+.eliminar-producto {
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+.eliminar-producto {
+    background-color: #f00;
+    margin-left: 0.5rem;
+}
+
+.agregar-producto {
+    background-color: rgb(0, 145, 0);
+}
+
+button[type="submit"] {
+    background-color: rgb(0, 0, 255);
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(0, 187, 201);
+}
+
+@media only screen and (max-width: 600px) {
+    .quote-form {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}
